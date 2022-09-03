@@ -4,10 +4,10 @@
 #define CONST_NAME2 "CONST_NAME2"
 
 int main()
-{  
+{
     #ifndef COMMAND
-    #warning Compilation will be stoped ...
-    #error No defined Constant Symbol COMMAND
+        #warning Compilation will be stoped ...
+        #error No defined Constant Symbol COMMAND
     #endif
 
     printf("%s\n", COMMAND);

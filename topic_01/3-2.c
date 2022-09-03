@@ -4,28 +4,27 @@ int f1(int n)
 {
     int ret = 0;
     int i = 0;
-    
+
     for(i=1; i<=n; i++)
     {
         ret += i;
     }
-    
     return ret;
 }
 
 int f2(int n)
 {
     int ret = 0;
-    
+
     while( (n > 0) && (ret += n--) );
-    
+
     return ret;
 }
 
 int f3(int n)
 {
     int ret = 0;
-    
+
     if( n > 0 )
     {
         do
@@ -33,7 +32,7 @@ int f3(int n)
             ret += n--;
         }while( n );
     }
-    
+
     return ret;
 }
 

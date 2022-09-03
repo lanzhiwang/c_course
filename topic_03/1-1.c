@@ -1,30 +1,25 @@
-// test.h
-/*
-This is the header file for test.c
-*/
+#include <stdio.h>
 
-#define MAX(a,b) (((a)>(b)) ? (a) : (b))
-
-int g_global = 10;
-
-
-
-
-// test.c
-#include "test.h"
-
-#define LOW  0
-#define HIGH 255
-
-int max(int a, int b)
-{
-    return MAX(a,b);
-}
+#define ERROR -1
+#define PI 3.1415926
+#define PATH1 "/Users/huzhi/work/code/c_code/c_course_01"
+#define PATH2 /Users/huzhi/work/code/c_code/c_course_01
+#define PATH3 /Users/huzhi/work/code/c_code\
+/c_course_01
 
 int main()
 {
-    
-    int c = max(LOW, HIGH); // Call max to get the larger number
-
+    printf("%d\n", ERROR);
+    printf("%f\n", PI);
+    printf("%s\n", PATH1);
+    printf("%s\n", PATH2);
+    printf("%s\n", PATH3);
+    /*
+    printf("%d\n", -1);
+    printf("%f\n", 3.1415926);
+    printf("%s\n", "/Users/huzhi/work/code/c_code/c_course_01");
+    printf("%s\n", /Users/huzhi/work/code/c_code/c_course_01);
+    printf("%s\n", /Users/huzhi/work/code/c_code/c_course_01);
+    */
     return 0;
 }

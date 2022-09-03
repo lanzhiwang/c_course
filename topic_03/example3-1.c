@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-#define C 1
+// #define C 1
+// gcc -E -DC=0 example3-1.c
 
 int main()
 {
@@ -9,6 +10,6 @@ int main()
     #else
         printf("This is second printf...\n");
     #endif
-    
+
     return 0;
 }
