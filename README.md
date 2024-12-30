@@ -2,7 +2,7 @@
 
 ## 视频教程:
 
-1. [C语音深入剖析班（国嵌唐老师主讲）（直戳C语言的本质）](https://www.bilibili.com/video/BV1sL4y1B73X?p=1)
+1. [C语音深入剖析班(国嵌唐老师主讲)(直戳C语言的本质)](https://www.bilibili.com/video/BV1sL4y1B73X?p=1)
 
 2. [GCC编译器使用入门培训](https://www.bilibili.com/video/BV1rJ411V7EV/)
 
@@ -18,7 +18,7 @@
 * [链接](https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/Link-Options.html)
 
 * [c reference](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
-* [The GNU C Library (glibc)](https://www.gnu.org/software/libc/), GCC 不提供 GNU C 库（称为 glibc）
+* [The GNU C Library (glibc)](https://www.gnu.org/software/libc/), GCC 不提供 GNU C 库(称为 glibc)
 
 * [binutils](https://www.gnu.org/software/binutils/)
 
