@@ -28,12 +28,12 @@
 
 ```bash
 docker run -ti --rm \
--v ~/work/code/c_code/c_course/code:/code \
--w /code \
+-v ~/work/code/c_code/c_course/src:/src \
+-w /src \
 gcc:12.4.0 \
 bash
 
-
+apt update && apt-get install -y indent gdb tree cmake
 
 find . -name "*.c" -exec sh ./Lindent.sh {} \; && find . -name "*.h" -exec sh ./Lindent.sh {} \; && find . -name "*.c~" -exec rm -rf {} \; && find . -name "*.h~" -exec rm -rf {} \;
 
